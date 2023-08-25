@@ -64,7 +64,8 @@ Follow these steps to explore the project:
 1. Clone this repository:
    ```sh
    git clone https://github.com/your-username/electricity-consumption-time-series.git
-👥 Contributors
--Mohit Jadhav
--Romit Suryvanshi
--Digvijay Patil
+## 👥 Contributors
+- 👤 Mohit Jadhav
+- 👤 Romit Suryvanshi
+- 👤 Digvijay Patil
+
