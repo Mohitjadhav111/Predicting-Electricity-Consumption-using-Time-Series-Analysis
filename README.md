@@ -1,6 +1,5 @@
 # Predicting Electricity Consumption using Time Series Analysis
 
-![Electricity Consumption](electricity_image.png) <!-- If you have an image related to the project -->
 
 Welcome to the repository for the project "Predicting Electricity Consumption using Time Series Analysis" by the Department of Statistics at Savitribai Phule Pune University, Pune.
 
