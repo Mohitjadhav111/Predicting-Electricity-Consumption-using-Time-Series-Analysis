@@ -1,73 +1,71 @@
-# Predicting-Electricity-Consumption-using-Time-Series-Analysis
-Department of Statistics  Savitribai Phule Pune University  Pune.
+# Predicting Electricity Consumption using Time Series Analysis
 
-What is Time Series analysis?
-Time series forecasting is a technique for the prediction of events through a sequence of time. The technique is used across many fields of study, from geology to behaviour to economics. The techniques predict future events by analyzing the trends of the past, on the assumption that future trends will hold similar to historical trends.
+![Electricity Consumption](electricity_image.png) <!-- If you have an image related to the project -->
 
-Time series forecasting is performed in a variety of applications including:
+Welcome to the repository for the project "Predicting Electricity Consumption using Time Series Analysis" by the Department of Statistics at Savitribai Phule Pune University, Pune.
 
-Weather forecasting
+## ⏲️ What is Time Series Analysis?
 
-Earthquake prediction
+Time series analysis is a technique for predicting events through a sequence of time. It is used in various fields such as geology, behavior, and economics. This technique predicts future events by analyzing past trends, assuming that future trends will follow historical patterns.
 
-Astronomy
+Time series analysis is applied in numerous areas, including:
 
-Statistics
+- Weather forecasting
+- Earthquake prediction
+- Astronomy
+- Statistics
+- Mathematical finance
+- Econometrics
+- Pattern recognition
+- Signal processing
+- Control engineering
 
-Mathematical finance
+Modern time series forecasting often involves computer technologies like:
 
-Econometrics
+- Machine learning
+- Artificial neural networks
+- Support vector machines
+- Fuzzy logic
+- Gaussian processes
+- Hidden Markov models
 
-Pattern recognition
+## 🎯 Project Goals
 
-Signal processing
+This project aims to predict electricity consumption using time series analysis techniques. We'll explore patterns, trends, and seasonality in the electricity consumption data from 1985 to 2018. The ultimate goal is to build a forecasting model that predicts electricity consumption for the next 6 years, up to 2024.
 
-Control engineering
+## 📊 Project Stages
 
-Time series forecasting is sometimes just the analysis of experts studying a field and offering their predictions. In many modern applications, however, time series forecasting uses computer technologies, including:
+The time series forecasting process involves several stages:
 
-Machine learning
+1. **Visualizing Time Series:** Explore the data visually to identify patterns, trends, and seasonality.
 
-Artificial neural networks
+2. **Stationarizing Time Series:** Transform the series into a stationary one, where statistical properties are constant over time.
 
-Support vector machines
+3. **Finding Best Model Parameters:** Determine optimal model parameters from ACF (AutoCorrelation Function) and PACF (Partial AutoCorrelation Function) plots.
 
-Fuzzy logic
+4. **Fitting Model:** Fit an ARIMA (AutoRegressive Integrated Moving Average) model to the stationary data.
 
-Gaussian processes
+5. **Predictions:** Use the model to predict electricity consumption for the next 6 years.
 
-Hidden Markov models
+## 📈 Problem Statement
 
-There are two main goals of time series analysis: (a) identifying the nature of the phenomenon represented by the sequence of observations, and (b) forecasting (predicting future values of the time series variable). Both of these goals require that the pattern of observed time series data is identified and more or less formally described. Once the pattern is established, we can interpret and integrate it with other data (i.e., use it in our theory of the investigated phenomenon, e.g., seasonal commodity prices). Regardless of the depth of our understanding and the validity of our interpretation (theory) of the phenomenon, we can extrapolate the identified pattern to predict future events.
+The dataset contains two columns: Date and Consumption Percentage. It represents electricity consumption from 1985 to 2018. The goal is to predict electricity consumption for the next 6 years, until 2024.
 
-Stages in Time Series Forecasting
-Solving a time series problem is a little different as compared to a regular modeling task. A simple/basic journey of solving a time series problem can be demonstrated through the following processes. We will understand about tasks which one needs to perform in every stage.
+## 📚 Project Structure
 
-We will also look at the python implementation of each stage of our problem-solving journey.
+- **Code:** Contains the Python code for implementing time series analysis and forecasting.
+- **Data:** Houses the dataset used for the analysis.
+- **Notebooks:** Jupyter notebooks detailing each stage of the time series analysis.
+- **Results:** Stores visualizations and predictions generated during the analysis.
 
-Steps are –
+## 🚀 Implementation
 
-1. Visualizing time series
+Follow these steps to explore the project:
 
-In this step, we try to visualize the series. We try to identify all the underlying patterns related to the series like trend and seasonality. Do not worry about these terms right now, as we will discuss them during implementation. You can say that this is more a type of exploratory analysis of time series data.
-
-2. Stationarising time series
-
-A stationary time series is one whose statistical properties such as mean, variance, autocorrelation, etc. are all constant over time. Most statistical forecasting methods are based on the assumption that the time series can be rendered approximately stationary (i.e., “stationarised”) through the use of mathematical transformations. A stationarised series is relatively easy to predict: you simply predict that its statistical properties will be the same in the future as they have been in the past! Another reason for trying to stationarise a time series is to be able to obtain meaningful sample statistics such as means, variances, and correlations with other variables. Such statistics are useful as descriptors of future behavior only if the series is stationary. For example, if the series is consistently increasing over time, the sample mean and variance will grow with the size of the sample, and they will always underestimate the mean and variance in future periods. And if the mean and variance of a series are not well-defined, then neither are its correlations with other variables
-
-3. Finding the best parameters for our model
-
-We need to find optimal parameters for forecasting models one’s we have a stationary series. These parameters come from the ACF and PACF plots. Hence, this stage is more about plotting above two graphs and extracting optimal model parameters based on them. Do not worry, we will cover on how to determine these parameters during the implementation part below!
-
-4. Fitting model
-
-Once we have our optimal model parameters, we can fit an ARIMA model to learn the pattern of the series. Always remember that time series algorithms work on stationary data only hence making a series stationary is an important aspect
-
-5. Predictions
-
-After fitting our model, we will be predicting the future in this stage. Since we are now familiar with a basic flow of solving a time series problem, let us get to the implementation.
-
-Problem Statement
-The dataset can be downloaded from here. It contains only 2 columns, one column is Date and the other column relates to the consumption percentage.
-
-It shows the consumption of electricity from 1985 till 2018. The goal is to predict electricity consumption for the next 6 years i.e. till 2024
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/your-username/electricity-consumption-time-series.git
+👥 Contributors
+-Mohit Jadhav
+-Romit Suryvanshi
+-Digvijay Patil
