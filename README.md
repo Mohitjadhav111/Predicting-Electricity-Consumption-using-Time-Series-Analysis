@@ -57,13 +57,6 @@ The dataset contains two columns: Date and Consumption Percentage. It represents
 - **Notebooks:** Jupyter notebooks detailing each stage of the time series analysis.
 - **Results:** Stores visualizations and predictions generated during the analysis.
 
-## 🚀 Implementation
-
-Follow these steps to explore the project:
-
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/your-username/electricity-consumption-time-series.git
 ## 👥 Contributors
 - 👤 Mohit Jadhav
 - 👤 Romit Suryvanshi
